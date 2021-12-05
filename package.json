@@ -1,0 +1,34 @@
+{
+	"name": "tweenn.github.io",
+	"version": "1.0.0",
+	"description": "Tweenn's homepage, card and about",
+	"main": "src/index.js",
+	"scripts": {
+		"commit": "git cz",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tweenn/tweenn.github.io.git"
+	},
+	"keywords": [
+		"tweenn",
+		"portfolio",
+		"about"
+	],
+	"author": "Felipe Zuntini <felipezuntini@hotmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tweenn/tweenn.github.io/issues"
+	},
+	"homepage": "https://github.com/tweenn/tweenn.github.io#readme",
+	"devDependencies": {
+		"commitizen": "^4.2.4",
+		"git-cz": "^4.8.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "git-cz"
+		}
+	}
+}
